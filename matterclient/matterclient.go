@@ -275,7 +275,7 @@ func (m *MMClient) parseActionPost(rmsg *Message) {
 }
 
 func (m *MMClient) UpdateUsers() error {
-	mmusers, err := m.Client.GetProfiles(0, 1000, "")
+	mmusers, err := m.Client.GetProfiles(0, 50000, "")
 	if err != nil {
 		return errors.New(err.DetailedError)
 	}
@@ -623,7 +623,7 @@ func (m *MMClient) initUser() error {
 	//m.log.Debug("initUser(): loading all team data")
 	for _, v := range initData.Teams {
 		m.Client.SetTeamId(v.Id)
-		mmusers, _ := m.Client.GetProfiles(0, 1000, "")
+		mmusers, _ := m.Client.GetProfiles(0, 50000, "")
 		t := &Team{Team: v, Users: mmusers.Data.(map[string]*model.User), Id: v.Id}
 		mmchannels, _ := m.Client.GetChannels("")
 		t.Channels = mmchannels.Data.(*model.ChannelList)
