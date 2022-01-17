@@ -20,7 +20,7 @@ require (
 	github.com/jpillora/backoff v1.0.0
 	github.com/keybase/go-keybase-chat-bot v0.0.0-20211201215354-ee4b23828b55
 	github.com/kyokomi/emoji/v2 v2.2.8
-	github.com/labstack/echo/v4 v4.6.1
+	github.com/labstack/echo/v4 v4.6.3
 	github.com/lrstanley/girc v0.0.0-20211023233735-147f0ff77566
 	github.com/matrix-org/gomatrix v0.0.0-20210324163249-be2af5ef2e16
 	github.com/matterbridge/Rocket.Chat.Go.SDK v0.0.0-20211016222428-79310a412696
@@ -74,7 +74,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kettek/apng v0.0.0-20191108220231-414630eed80f // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
-	github.com/labstack/gommon v0.3.0 // indirect
+	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mattermost/go-i18n v1.11.1-0.20211013152124-5c415071e404 // indirect
 	github.com/mattermost/ldap v0.0.0-20201202150706-ee0e6284187d // indirect
@@ -121,7 +121,7 @@ require (
 	go.uber.org/zap v1.17.0 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/net v0.0.0-20211006190231-62292e806868 // indirect
-	golang.org/x/sys v0.0.0-20211007075335-d3039528d8ac // indirect
+	golang.org/x/sys v0.0.0-20211103235746-7861aae1554b // indirect
 	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
